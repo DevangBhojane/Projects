@@ -1,0 +1,20 @@
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\bin\Debug\Lab4B.exe.config
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\bin\Debug\Lab4B.exe
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\bin\Debug\Lab4B.pdb
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.Form1.resources
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.Properties.Resources.resources
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.csproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.exe
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.pdb
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\bin\Debug\Lab4B.exe.config
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\bin\Debug\Lab4B.exe
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\bin\Debug\Lab4B.pdb
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.csproj.AssemblyReference.cache
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.Form1.resources
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.Properties.Resources.resources
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.csproj.GenerateResource.cache
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.csproj.CoreCompileInputs.cache
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.exe
+D:\Sem4\Lab4\Lab4\Lab4B\Lab4B\obj\Debug\Lab4B.pdb

@@ -1,0 +1,14 @@
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\bin\Debug\Lab4A.exe.config
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\bin\Debug\Lab4A.exe
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\bin\Debug\Lab4A.pdb
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.exe
+C:\Users\admin\OneDrive\Desktop\Sem3\NET (C#)\Assignment\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.pdb
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\bin\Debug\Lab4A.exe.config
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\bin\Debug\Lab4A.exe
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\bin\Debug\Lab4A.pdb
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.AssemblyReference.cache
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.csproj.CoreCompileInputs.cache
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.exe
+D:\Sem4\Lab4\Lab4\Lab4A\Lab4A\obj\Debug\Lab4A.pdb
