@@ -1,0 +1,30 @@
+#header {
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+    border-right: 1px solid black;
+}
+
+#nav ul li:last-of-type{
+    border: none;
+}
+
+footer {
+    text-align: center;
+}
+

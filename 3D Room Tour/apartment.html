@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Devang Bhojane, 000901300 -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sandy and Leslie's apartment</title>
+
+        <link rel="stylesheet" href="CSS/apartment_layout.css">
+        <link rel="stylesheet" href="CSS/mobile.css" media="only screen and (max-width: 600px)">
+   
+        <style>
+       
+
+            #apartment_detail {
+                display: grid;
+                grid-template-columns: 1fr repeat(2, auto);
+                grid-template-rows: repeat(2, auto);
+                column-gap: 1em;
+                row-gap: 1em;
+                padding: 10px;
+        }
+
+        .h2-sty {
+            background-color: rgb(255, 221, 0);
+            padding: 7px;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        tbody tr:last-of-type {
+            background-color: lightgreen;
+        }
+
+        #aprt-details-iteam-3 {
+            grid-row: 1/span 2;
+            grid-column: 3;
+        }
+
+        
+        .img-gallary {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        .img-gallary img {
+            width: 200px;
+            height: 150px;
+        }
+
+        .h3-sty {
+            background-color: darkorange;
+            color: white;
+            padding: 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>Sandy and Leslie's Apartment</h1>
+        <p>Click a room for a detailed view.</p>
+
+        <a href="apartment.html" target="_blank">
+            <img src="images/apartmentfloorplan.jpg" alt="apartmentfloorplan" usemap="#image-map"></a>
+        <map name="image-map">
+            <area target="_blank" alt="bedroom-1" title="bedroom-1" href="External Webpages/bedroom.html"
+                coords="40,104,186,271" shape="rect">
+
+            <area target="_blank" alt="bedroom-2" title="bedroom-2" href="External Webpages/bedroom.html"
+                coords="388,106,556,106,571,306,498,308,489,238,394,235" shape="poly">
+
+            <area target="_blank" alt="dinningroom" title="dinningroom" href="External Webpages/diningroom.html"
+                coords="340,338,47" shape="circle">
+
+            <area target="_blank" alt="kitchen" title="kitchen" href="External Webpages/kitchen.html"
+                coords="187,284,287,386" shape="rect">
+
+            <area target="_blank" alt="livingroom" title="livingroom" href="External Webpages/livingroom.html"
+                coords="191,107,345,273" shape="rect">
+        </map>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="apartment.html" target="_blank">Apartment</a></li>
+            <li><a href="External Webpages/bedroom.html" target="_blank">Bedroom 1</a></li>
+            <li><a href="External Webpages/bedroom.html" target="_blank">Bedroom 2</a></li>
+            <li><a href="External Webpages/diningroom.html" target="_blank">Dinning Room</a></li>
+            <li><a href="External Webpages/kitchen.html" target="_blank">Kithen</a></li>
+            <li><a href="External Webpages/livingroom.html" target="_blank">Living Room</a></li>
+        </ul>
+    </div>
+
+    <div id="apartment_detail">
+        <div id="apartment-details-iteam-1">
+            <h2 class="h2-sty">Welcome Message</h2>
+            <audio controls src="images/apartment.mp3"></audio>
+            <p>Transcript: Hello. Welcome to our apartment. You'll really enjoy living here. The rooms are spacious and
+                the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+        </div>
+
+        <div id="apartment-details-item-2">
+            <h2 class="h2-sty">Apartment Services:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Day/Hours</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Gym</td>
+                        <td rowspan="2">
+                            <p> Monday-Friday 6am - 10pm</p>
+                            <p> Saturday 8am - 8pm </p>
+                            <p> Sunday 8am - 5pm</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pool</td>
+                    </tr>
+                    <tr>
+                        <td>Laundry</td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="apartment-details-item-3">
+            <h2 class="h2-sty">Location</h2>
+            <img src="images/location.png" alt="location of apartment">
+        </div>
+
+        <div id="apartment-details-item-4">
+            <h2 class="h2-sty">Survey</h2>
+            <p>How did you find about this apartment ? Check any that apply:</p>
+            <form action="#" method="post">
+                <div>
+                    <input type="checkbox" name="finding" id="webser" value="Web Search">
+                    <label for="webser">Web Search</label>
+
+                    <input type="checkbox" name="finding" id="friend" value="Friend">
+                    <label for="friend">Friend</label>
+
+                    <input type="checkbox" name="finding" id="newspaper" value="Newspaper">
+                    <label for="newspaper">Newspaper</label>
+                </div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset Form">
+            </form>
+        </div>
+    </div>
+
+    <div id="gallary">
+        <h2 class="h2-sty">Gallary</h2>
+
+        <div class="img-gallary">
+            <div id="img-1">
+                <h3 class="h3-sty">Balcony</h3>
+                <img src="images/thumbnails/balcony_sm.jpg" alt="Balcony View">
+            </div>
+            <div id="img-2">
+                <h3 class="h3-sty">Bathroom</h3>
+                <img src="images/thumbnails/bathroom_sm.jpg" alt="Bathroom">
+            </div>
+            <div id="img-3">
+                <h3 class="h3-sty">Bedroom</h3>
+                <img src="images/thumbnails/bedroom_sm.jpg" alt="Bedroom">
+            </div>
+            <div id="img-4">
+                <h3 class="h3-sty">Dinning Room</h3>
+                <img src="images/thumbnails/diningroom_sm.jpg" alt="Dinning Room">
+            </div>
+            <div id="img-5">
+                <h3 class="h3-sty">Kitchen</h3>
+                <img src="images/thumbnails/kitchen_sm.jpg" alt="Kitchen">
+            </div>
+            <div id="img-6">
+                <h3 class="h3-sty">Living Room</h3>
+                <img src="images/thumbnails/livingroom_sm.jpg" alt="Living Room">
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>For more information contact: <a href="mailto:sandyandlesile@example.com">SandyAndLesile@example.com</a> or
+            <a href="tel:+19055551234">(905) 555-1234</a>
+        </p>
+        <small>&copy; Sandy and Lesile 2022</small>
+    </footer>
+</body>
+
+</html>

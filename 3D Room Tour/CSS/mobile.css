@@ -1,0 +1,19 @@
+#header img {
+    display: none;
+}
+
+#nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#nav ul li {
+    border-right: none;
+    padding-bottom: 1em;
+}
+
+#apartment_detail {
+    display: flex;
+    flex-direction: column;
+}

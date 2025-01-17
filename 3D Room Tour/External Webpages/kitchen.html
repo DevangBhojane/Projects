@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Devang Bhojane, 000901300 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Details</title>
+
+    <link rel="stylesheet" href="../CSS/apartment_layout.css">
+
+    <style>
+        #main {
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Sandy and Leslie's Apartment</h1>
+        <p>Click a room for a detailed view.</p>
+
+        <img src="../images/apartmentfloorplan.jpg" alt="apartmentfloorplan" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="bedroom-1" title="bedroom-1" href="bedroom.html" coords="40,104,186,271"
+                shape="rect">
+
+            <area target="_blank" alt="bedroom-2" title="bedroom-2" href="bedroom.html"
+                coords="388,106,556,106,571,306,498,308,489,238,394,235" shape="poly">
+
+            <area target="_blank" alt="dinningroom" title="dinningroom" href="diningroom.html" coords="340,338,47"
+                shape="circle">
+
+            <area target="_blank" alt="kitchen" title="kitchen" href="kitchen.html" coords="187,284,287,386"
+                shape="rect">
+
+            <area target="_blank" alt="livingroom" title="livingroom" href="livingroom.html" coords="191,107,345,273"
+                shape="rect">
+        </map>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="../apartment.html" target="_blank">Apartment</a></li>
+            <li><a href="bedroom.html" target="_blank">Bedroom 1</a></li>
+            <li><a href="bedroom.html" target="_blank">Bedroom 2</a></li>
+            <li><a href="diningroom.html" target="_blank">Dinning Room</a></li>
+            <li><a href="kitchen.html" target="_blank">Kithen</a></li>
+            <li><a href="livingroom.html" target="_blank">Living Room</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2 class="h2-sty">Kitchen Detail</h2>
+        <img src="../images/kitchen_lg.jpg" alt="Kitchen">
+    </div>
+
+    <div id="additionalinfo">
+        <h2 class="h2-sty">Apartment Services:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Day/Hours</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Gym</td>
+                    <td rowspan="2">
+                        <p> Monday-Friday 6am - 10pm</p>
+                        <p> Saturday 8am - 8pm </p>
+                        <p> Sunday 8am - 5pm</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pool</td>
+                </tr>
+                <tr>
+                    <td>Laundry</td>
+                    <td>24/7</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>For more information contact: <a href="mailto:sandyandlesile@example.com">SandyAndLesile@example.com</a> or
+            <a href="tel:+19055551234">(905) 555-1234</a>
+        </p>
+        <small>&copy; Sandy and Lesile 2022</small>
+    </footer>
+</body>
+
+</html>
